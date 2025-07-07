@@ -1,0 +1,4 @@
+2025-07-07 09:33:36 [Information]  Now listening on: "http://localhost:5000"
+2025-07-07 09:33:36 [Information]  Application started. Press Ctrl+C to shut down.
+2025-07-07 09:33:36 [Information]  Hosting environment: "Production"
+2025-07-07 09:33:36 [Information]  Content root path: "C:\Users\menna\source\repos\Market\Market\bin\Debug\net8.0"

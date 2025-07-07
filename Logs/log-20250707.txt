@@ -1,0 +1,71 @@
+2025-07-07 09:30:25 [Information]  Now listening on: "https://localhost:7091"
+2025-07-07 09:30:25 [Information]  Now listening on: "http://localhost:5226"
+2025-07-07 09:30:25 [Information]  Application started. Press Ctrl+C to shut down.
+2025-07-07 09:30:25 [Information]  Hosting environment: "Development"
+2025-07-07 09:30:25 [Information]  Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-07-07 09:30:26 [Information]  Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-07-07 09:30:26 [Information]  Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-07-07 09:30:26 [Information]  Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-07-07 09:30:26 [Information]  Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 557.958ms
+2025-07-07 09:30:27 [Information]  Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 54.995ms
+2025-07-07 09:30:27 [Information]  Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 341.7539ms
+2025-07-07 09:30:27 [Information]  Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-07-07 09:30:27 [Information]  Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 31.9757ms
+2025-07-07 09:30:57 [Information]  Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-07-07 09:30:57 [Information]  Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-07-07 09:30:57 [Information]  Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-07-07 09:31:00 [Information]  Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-07-07 09:31:00 [Information]  Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-07-07 09:31:00 [Information]  Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 2674.0501ms
+2025-07-07 09:31:00 [Information]  Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-07-07 09:31:00 [Information]  Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 2799.6883ms
+2025-07-07 09:31:46 [Information]  Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-07-07 09:31:46 [Information]  Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-07-07 09:31:46 [Information]  Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-07-07 09:31:46 [Information]  Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-07-07 09:31:46 [Information]  Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-07-07 09:31:46 [Information]  Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 78.8183ms
+2025-07-07 09:31:46 [Information]  Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-07-07 09:31:46 [Information]  Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 84.0269ms
+2025-07-07 09:32:19 [Information]  Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - "application/json" 141
+2025-07-07 09:32:19 [Information]  CORS policy execution successful.
+2025-07-07 09:32:19 [Information]  Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-07-07 09:32:19 [Information]  Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-07-07 09:32:19 [Information]  Executed DbCommand ("103"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-07-07 09:32:19 [Information]  Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-07-07 09:32:19 [Information]  Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 888.8171ms
+2025-07-07 09:32:19 [Information]  Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-07-07 09:32:19 [Information]  Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - 200 null "application/json; charset=utf-8" 933.7974ms
+2025-07-07 09:35:11 [Information]  Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-07-07 09:35:11 [Information]  Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-07-07 09:35:11 [Information]  Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-07-07 09:35:11 [Information]  Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-07-07 09:35:11 [Information]  Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-07-07 09:35:11 [Information]  Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 8.7618ms
+2025-07-07 09:35:11 [Information]  Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-07-07 09:35:11 [Information]  Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 10.8264ms
+2025-07-07 09:35:36 [Information]  Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - "application/json" 142
+2025-07-07 09:35:36 [Information]  CORS policy execution successful.
+2025-07-07 09:35:36 [Information]  Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-07-07 09:35:36 [Information]  Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-07-07 09:35:36 [Information]  Executed DbCommand ("13"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-07-07 09:35:36 [Information]  Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-07-07 09:35:36 [Information]  Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 66.113ms
+2025-07-07 09:35:36 [Information]  Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-07-07 09:35:36 [Information]  Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - 200 null "application/json; charset=utf-8" 77.1172ms

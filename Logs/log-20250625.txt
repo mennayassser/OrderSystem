@@ -1,0 +1,467 @@
+2025-06-25 12:13:47 [Information] Now listening on: "https://localhost:7091"
+2025-06-25 12:13:47 [Information] Now listening on: "http://localhost:5226"
+2025-06-25 12:13:47 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 12:13:47 [Information] Hosting environment: "Development"
+2025-06-25 12:13:47 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-25 12:13:47 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-25 12:13:47 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 245.1321ms
+2025-06-25 12:13:47 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-25 12:13:47 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 12:13:47 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 6.7414ms
+2025-06-25 12:13:47 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 59.1961ms
+2025-06-25 12:13:47 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-25 12:13:47 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 14.0514ms
+2025-06-25 12:13:49 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 12:13:49 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:13:49 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:14:06 [Error] An error occurred using the connection to database '"MarketDB"' on server '"localhost,1433"'.
+2025-06-25 12:14:06 [Error] An exception occurred while iterating over the results of a query for context type '"Market.Data.MarketDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+ ---> System.ComponentModel.Win32Exception (10061): No connection could be made because the target machine actively refused it.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10061,State:0,Class:20"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - No connection could be made because the target machine actively refused it.)
+ ---> System.ComponentModel.Win32Exception (10061): No connection could be made because the target machine actively refused it.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10061,State:0,Class:20
+2025-06-25 12:14:54 [Information] Now listening on: "https://localhost:7091"
+2025-06-25 12:14:54 [Information] Now listening on: "http://localhost:5226"
+2025-06-25 12:14:54 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 12:14:54 [Information] Hosting environment: "Development"
+2025-06-25 12:14:54 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-25 12:14:54 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-25 12:14:54 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 171.2395ms
+2025-06-25 12:14:54 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 12:14:54 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-25 12:14:54 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 10.6693ms
+2025-06-25 12:14:54 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.1918ms
+2025-06-25 12:14:54 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-25 12:14:54 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 13.2991ms
+2025-06-25 12:14:56 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 12:14:56 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:14:56 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:14:57 [Information] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-25 12:14:58 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 12:14:58 [Information] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 1600.3068ms
+2025-06-25 12:14:58 [Information] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:14:58 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1628.9894ms
+2025-06-25 12:15:04 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/1""" - null null
+2025-06-25 12:15:04 [Information] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 12:15:04 [Information] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:15:04 [Information] Executed DbCommand ("18"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 12:15:04 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 12:15:04 [Information] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 120.2322ms
+2025-06-25 12:15:04 [Information] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 12:15:04 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/1""" - 200 null "application/json; charset=utf-8" 128.0585ms
+2025-06-25 12:15:31 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-25 12:15:31 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 12:15:31 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:15:31 [Information] Executed DbCommand ("12"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-25 12:15:31 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 12:15:31 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 153.7575ms
+2025-06-25 12:15:31 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 12:15:31 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 156.1056ms
+2025-06-25 12:15:34 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 12:15:34 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:15:34 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:15:34 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-25 12:15:34 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 12:15:34 [Information] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 5.3635ms
+2025-06-25 12:15:34 [Information] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:15:34 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 7.0148ms
+2025-06-25 12:15:38 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 12:15:38 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:15:38 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:15:38 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-25 12:15:38 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 12:15:38 [Information] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 4.6145ms
+2025-06-25 12:15:38 [Information] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 12:15:38 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 5.8019ms
+2025-06-25 12:15:49 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/12""" - null null
+2025-06-25 12:15:49 [Information] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 12:15:49 [Information] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 12:15:49 [Information] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 12:15:49 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 12:15:49 [Information] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 7.6062ms
+2025-06-25 12:15:49 [Information] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 12:15:49 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/12""" - 200 null "application/json; charset=utf-8" 8.4078ms
+2025-06-25 13:38:40 [Information] Now listening on: "https://localhost:7091"
+2025-06-25 13:38:40 [Information] Now listening on: "http://localhost:5226"
+2025-06-25 13:38:41 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 13:38:41 [Information] Hosting environment: "Development"
+2025-06-25 13:38:41 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-25 13:38:41 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-25 13:38:41 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 182.3623ms
+2025-06-25 13:38:41 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 13:38:41 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-25 13:38:41 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 4.4582ms
+2025-06-25 13:38:41 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 32.1401ms
+2025-06-25 13:38:41 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-25 13:38:41 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.1863ms
+2025-06-25 13:38:46 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 13:38:46 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 13:38:46 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:38:47 [Information] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-25 13:38:47 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 13:38:47 [Information] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 1148.7695ms
+2025-06-25 13:38:47 [Information] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 13:38:47 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1181.7204ms
+2025-06-25 13:38:56 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/2""" - null null
+2025-06-25 13:38:56 [Information] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 13:38:56 [Information] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:38:56 [Information] Executed DbCommand ("21"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 13:38:56 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:38:56 [Information] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 153.4714ms
+2025-06-25 13:38:56 [Information] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 13:38:56 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/2""" - 200 null "application/json; charset=utf-8" 161.0046ms
+2025-06-25 13:39:41 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-25 13:39:41 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:39:41 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:39:41 [Information] Executed DbCommand ("26"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-25 13:41:30 [Information] Now listening on: "https://localhost:7091"
+2025-06-25 13:41:30 [Information] Now listening on: "http://localhost:5226"
+2025-06-25 13:41:30 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 13:41:30 [Information] Hosting environment: "Development"
+2025-06-25 13:41:30 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-25 13:41:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-25 13:41:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 190.4258ms
+2025-06-25 13:41:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 13:41:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-25 13:41:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 7.3763ms
+2025-06-25 13:41:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 45.9351ms
+2025-06-25 13:41:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-25 13:41:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.8785ms
+2025-06-25 13:41:33 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 13:41:33 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 13:41:33 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:41:34 [Information] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-25 13:41:34 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 13:41:34 [Information] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 929.1962ms
+2025-06-25 13:41:34 [Information] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 13:41:34 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 958.7516ms
+2025-06-25 13:41:55 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-25 13:41:55 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:41:55 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:41:55 [Information] Executed DbCommand ("41"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-25 13:41:55 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:41:55 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 307.3007ms
+2025-06-25 13:41:55 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:41:55 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 317.1185ms
+2025-06-25 13:42:13 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-25 13:42:13 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:42:13 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:42:13 [Information] Executed DbCommand ("10"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-25 13:42:13 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:42:13 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 66.1681ms
+2025-06-25 13:42:13 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:42:13 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 67.0716ms
+2025-06-25 13:43:36 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/14""" - null null
+2025-06-25 13:43:36 [Information] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 13:43:36 [Information] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:43:36 [Information] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 13:43:36 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:43:36 [Information] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 79.1316ms
+2025-06-25 13:43:36 [Information] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 13:43:36 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/14""" - 200 null "application/json; charset=utf-8" 82.9848ms
+2025-06-25 13:43:36 [Information] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/14""" - "application/json; charset=utf-8" null
+2025-06-25 13:43:36 [Information] Executing endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-25 13:43:36 [Information] Route matched with "{action = \"UpdateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(Int32, Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:43:36 [Information] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 13:43:36 [Information] Executed DbCommand ("11"ms) [Parameters=["@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [CustomerId] = @p0, [Price] = @p1, [Products] = @p2
+OUTPUT 1
+WHERE [OrderId] = @p3;"
+2025-06-25 13:43:36 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:43:36 [Information] Executed action "Market.Controllers.OrderController.UpdateOrder (Market)" in 39.9547ms
+2025-06-25 13:43:36 [Information] Executed endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-25 13:43:36 [Information] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/14""" - 200 null "application/json; charset=utf-8" 43.3082ms
+2025-06-25 13:43:44 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/14""" - null null
+2025-06-25 13:43:44 [Information] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 13:43:44 [Information] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:43:44 [Information] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 13:43:44 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:43:44 [Information] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 3.8446ms
+2025-06-25 13:43:44 [Information] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-25 13:43:44 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/14""" - 200 null "application/json; charset=utf-8" 4.9823ms
+2025-06-25 13:43:44 [Information] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/14""" - "application/json; charset=utf-8" null
+2025-06-25 13:43:44 [Information] Executing endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-25 13:43:44 [Information] Route matched with "{action = \"UpdateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(Int32, Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:43:44 [Information] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-25 13:43:44 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:43:44 [Information] Executed action "Market.Controllers.OrderController.UpdateOrder (Market)" in 13.5781ms
+2025-06-25 13:43:44 [Information] Executed endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-25 13:43:44 [Information] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/14""" - 200 null "application/json; charset=utf-8" 14.3304ms
+2025-06-25 13:43:52 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-25 13:43:52 [Information] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 13:43:52 [Information] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:43:52 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-25 13:43:52 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-25 13:43:52 [Information] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 4.5369ms
+2025-06-25 13:43:52 [Information] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-25 13:43:52 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 5.3523ms
+2025-06-25 13:46:39 [Information] Now listening on: "https://localhost:7091"
+2025-06-25 13:46:39 [Information] Now listening on: "http://localhost:5226"
+2025-06-25 13:46:40 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 13:46:40 [Information] Hosting environment: "Development"
+2025-06-25 13:46:40 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-25 13:46:40 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-25 13:46:40 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-25 13:46:40 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 13:46:40 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 248.4769ms
+2025-06-25 13:46:40 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 7.7426ms
+2025-06-25 13:46:40 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 50.0092ms
+2025-06-25 13:46:40 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-25 13:46:40 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 18.0421ms
+2025-06-25 13:47:35 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-25 13:47:35 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:47:35 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 13:47:36 [Information] Executed DbCommand ("77"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-25 13:47:37 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 13:47:37 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 1670.3222ms
+2025-06-25 13:47:37 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 13:47:37 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1723.5843ms
+2025-06-25 15:51:30 [Information] Now listening on: "https://localhost:7091"
+2025-06-25 15:51:30 [Information] Now listening on: "http://localhost:5226"
+2025-06-25 15:51:30 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-25 15:51:30 [Information] Hosting environment: "Development"
+2025-06-25 15:51:30 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-25 15:51:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-25 15:51:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 366.7452ms
+2025-06-25 15:51:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-25 15:51:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-25 15:51:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 10.7317ms
+2025-06-25 15:51:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 80.7471ms
+2025-06-25 15:51:31 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-25 15:51:31 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 23.9155ms
+2025-06-25 15:52:20 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - "application/json" 111
+2025-06-25 15:52:20 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 15:52:20 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 15:52:22 [Error] Failed executing DbCommand ("93"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([OrderId], [CustomerId], [Direction], [Price], [Products], [Quantity])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-25 15:52:22 [Error] An exception occurred in the database while saving changes for context type '"Market.Data.MarketDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Orders' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64a2342-fa0d-47e7-a510-cfc29323adab
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Orders' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64a2342-fa0d-47e7-a510-cfc29323adab
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-06-25 15:52:22 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 2348.2771ms
+2025-06-25 15:52:22 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 15:52:22 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Orders' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64a2342-fa0d-47e7-a510-cfc29323adab
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Market.Controllers.OrderController.CreateOrder(Order order) in C:\Users\menna\source\repos\Market\Market\Controllers\OrderController.cs:line 47
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-25 15:52:22 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - 500 null "text/plain; charset=utf-8" 2493.3326ms
+2025-06-25 15:53:04 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - "application/json" 94
+2025-06-25 15:53:04 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 15:53:04 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-25 15:53:04 [Information] Executed DbCommand ("44"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-25 15:53:04 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-25 15:53:04 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 543.3545ms
+2025-06-25 15:53:04 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-25 15:53:04 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/api/Order""" - 200 null "application/json; charset=utf-8" 564.5913ms

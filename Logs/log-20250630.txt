@@ -1,0 +1,1389 @@
+2025-06-30 09:00:20 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 09:00:20 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 09:00:20 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 09:00:20 [Information] [] Hosting environment: "Development"
+2025-06-30 09:00:20 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 09:00:20 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 09:00:20 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 09:00:20 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 09:00:20 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 09:00:20 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 132.2513ms
+2025-06-30 09:00:21 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=mzafL5HLESUvS2b0A-kFSQ" - null null
+2025-06-30 09:00:21 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 09:00:21 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 312.6906ms
+2025-06-30 09:00:21 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 09:00:21 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 09:00:21 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 10.2104ms
+2025-06-30 09:00:21 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.0017ms
+2025-06-30 09:00:21 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 09:00:21 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 14.7338ms
+2025-06-30 11:17:02 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 11:17:02 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 11:17:02 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 11:17:02 [Information] [] Hosting environment: "Development"
+2025-06-30 11:17:02 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 11:17:03 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 11:17:03 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 11:17:03 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 11:17:03 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 125.5383ms
+2025-06-30 11:17:03 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=5qBQCS-JibMdcxJKzszBPQ" - null null
+2025-06-30 11:17:03 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 11:17:06 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 11:17:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 295.2146ms
+2025-06-30 11:17:07 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 11:17:07 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 11:17:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 10.7457ms
+2025-06-30 11:17:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 88.8861ms
+2025-06-30 11:17:07 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 11:17:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 27.1078ms
+2025-06-30 11:18:30 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 11:18:30 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 11:18:30 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 11:18:30 [Information] [] Hosting environment: "Development"
+2025-06-30 11:18:30 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 11:18:30 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 11:18:30 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 11:18:30 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 11:18:30 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 140.0681ms
+2025-06-30 11:18:31 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=08IeKEnDMa_YCf5VYaswTQ" - null null
+2025-06-30 11:18:31 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 11:18:36 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 11:18:36 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 255.6469ms
+2025-06-30 11:18:36 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 11:18:36 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 11:18:36 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 9.6637ms
+2025-06-30 11:18:36 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.577ms
+2025-06-30 11:18:36 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 11:18:37 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 24.8794ms
+2025-06-30 11:18:47 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-30 11:18:47 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 11:18:47 [Information] [] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 11:18:49 [Information] [] Executed DbCommand ("152"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-30 11:18:49 [Information] [] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-30 11:18:49 [Information] [] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 2791.0909ms
+2025-06-30 11:18:49 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 11:18:49 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 2851.5101ms
+2025-06-30 11:19:13 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 11:19:13 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 11:19:13 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 11:19:15 [Information] [] Executed DbCommand ("1,178"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 11:19:15 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 11:19:15 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 1712.1599ms
+2025-06-30 11:19:15 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 11:19:15 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1738.9904ms
+2025-06-30 11:20:07 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/19""" - null null
+2025-06-30 11:20:07 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 11:20:07 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 11:20:07 [Information] [] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 11:20:07 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 11:20:07 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 295.3131ms
+2025-06-30 11:20:07 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 11:20:07 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/19""" - 200 null "application/json; charset=utf-8" 302.0043ms
+2025-06-30 11:20:49 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 11:20:49 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 11:20:49 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 11:20:49 [Information] [] Executed DbCommand ("27"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 11:20:49 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 11:20:49 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 67.7393ms
+2025-06-30 11:20:49 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 11:20:49 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 69.9622ms
+2025-06-30 12:01:30 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:01:30 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:01:30 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:01:30 [Information] [] Hosting environment: "Development"
+2025-06-30 12:01:30 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:01:30 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:01:31 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:01:31 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:01:31 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 79.4503ms
+2025-06-30 12:01:31 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=ayCnVVfG9CuB8KPNJydZ9Q" - null null
+2025-06-30 12:01:31 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:01:32 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:01:32 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 109.7237ms
+2025-06-30 12:01:32 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:01:32 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:01:32 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.5577ms
+2025-06-30 12:01:32 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.6425ms
+2025-06-30 12:01:32 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:01:32 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 12.2748ms
+2025-06-30 12:01:48 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-30 12:01:48 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 12:01:48 [Information] [] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:01:49 [Information] [] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-30 12:01:49 [Information] [] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-30 12:01:49 [Information] [] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 1132.5608ms
+2025-06-30 12:01:49 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 12:01:49 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1165.0926ms
+2025-06-30 12:02:05 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/1012""" - null null
+2025-06-30 12:02:05 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 12:02:05 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:02:05 [Information] [] Executed DbCommand ("28"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:02:05 [Information] [] Executed DbCommand ("63"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 12:02:05 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 12:02:05 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 309.0377ms
+2025-06-30 12:02:05 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 12:02:05 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/1012""" - 204 null null 330.1336ms
+2025-06-30 12:02:29 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:02:29 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:02:29 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:02:29 [Information] [] Executed DbCommand ("26"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:02:29 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:02:29 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 157.4152ms
+2025-06-30 12:02:29 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:02:29 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 161.7574ms
+2025-06-30 12:10:51 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:10:51 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:10:51 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:10:51 [Information] [] Hosting environment: "Development"
+2025-06-30 12:10:51 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:10:51 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:10:51 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:10:51 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:10:51 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 55.886ms
+2025-06-30 12:10:51 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=0K6BNkgJgbUqwdYKXyMdwA" - null null
+2025-06-30 12:10:51 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:10:52 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:10:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 121.538ms
+2025-06-30 12:10:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:10:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:10:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 6.9767ms
+2025-06-30 12:10:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.8583ms
+2025-06-30 12:10:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:10:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 17.0256ms
+2025-06-30 12:11:13 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:11:13 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:11:13 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:11:14 [Information] [] Executed DbCommand ("45"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:11:14 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:11:14 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 1008.5503ms
+2025-06-30 12:11:14 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:11:14 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1034.7248ms
+2025-06-30 12:11:16 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:11:16 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:16 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:16 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 4.2475ms
+2025-06-30 12:11:16 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:11:16 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:16 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:16 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 1.2814ms
+2025-06-30 12:11:16 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=V02HmLXeH4PlNAodGGslMA" - null null
+2025-06-30 12:11:16 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:11:16 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=ZcLfaR2fsyoF0psScsqqjQ" - null null
+2025-06-30 12:11:16 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:11:48 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/22""" - null null
+2025-06-30 12:11:48 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:11:48 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:11:49 [Information] [] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:11:49 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:11:49 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 254.9509ms
+2025-06-30 12:11:49 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:11:49 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/22""" - 200 null "application/json; charset=utf-8" 259.7368ms
+2025-06-30 12:11:49 [Information] [] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/22""" - "application/json; charset=utf-8" null
+2025-06-30 12:11:49 [Information] [] Executing endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-30 12:11:49 [Information] [] Route matched with "{action = \"UpdateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(Int32, Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:11:49 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:11:49 [Information] [] Executed DbCommand ("35"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [Price] = @p0, [Quantity] = @p1
+OUTPUT 1
+WHERE [OrderId] = @p2;"
+2025-06-30 12:11:49 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:11:49 [Information] [] Executed action "Market.Controllers.OrderController.UpdateOrder (Market)" in 78.5103ms
+2025-06-30 12:11:49 [Information] [] Executed endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-30 12:11:49 [Information] [] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/22""" - 200 null "application/json; charset=utf-8" 82.016ms
+2025-06-30 12:11:51 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/22""" - null null
+2025-06-30 12:11:51 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:11:51 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:11:51 [Information] [] Executed DbCommand ("8"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:11:51 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:11:51 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 10.3258ms
+2025-06-30 12:11:51 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:11:51 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/22""" - 200 null "application/json; charset=utf-8" 11.4056ms
+2025-06-30 12:11:53 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:11:53 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:53 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:53 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 2.5697ms
+2025-06-30 12:11:53 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:11:53 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:53 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:11:53 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 7.3731ms
+2025-06-30 12:11:53 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=01TtP7e1d4BxaQ_RhfOU9g" - null null
+2025-06-30 12:11:53 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:11:53 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=0cfLxlkdehjeXyHmgUwvsw" - null null
+2025-06-30 12:11:53 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:13:47 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:13:47 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:13:47 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:13:47 [Information] [] Hosting environment: "Development"
+2025-06-30 12:13:47 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:13:48 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:13:48 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:13:48 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:13:48 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 71.3311ms
+2025-06-30 12:13:48 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=yxkuHZufrW5kqxCRnU40iQ" - null null
+2025-06-30 12:13:48 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:13:49 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:13:49 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 156.2946ms
+2025-06-30 12:13:49 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:13:49 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:13:49 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 6.7161ms
+2025-06-30 12:13:49 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 47.8154ms
+2025-06-30 12:13:49 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:13:49 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 19.2614ms
+2025-06-30 12:13:52 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/OrderHub""" - null null
+2025-06-30 12:13:52 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:13:52 [Information] [] Executed endpoint '"/OrderHub"'
+2025-06-30 12:13:52 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/OrderHub""" - 400 null "text/plain" 10.1881ms
+2025-06-30 12:24:21 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:24:21 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:24:21 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:24:21 [Information] [] Hosting environment: "Development"
+2025-06-30 12:24:21 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:24:21 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:24:21 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:24:21 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:24:21 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 57.9801ms
+2025-06-30 12:24:21 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=I1Dizhp0WaC-klM0VyWvtg" - null null
+2025-06-30 12:24:21 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:24:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:24:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 161.053ms
+2025-06-30 12:24:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:24:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:24:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 7.6185ms
+2025-06-30 12:24:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 50.0652ms
+2025-06-30 12:24:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:24:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 17.2737ms
+2025-06-30 12:24:51 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-30 12:24:51 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 12:24:51 [Information] [] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:24:52 [Information] [] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-30 12:24:52 [Information] [] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-30 12:24:52 [Information] [] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 1049.3804ms
+2025-06-30 12:24:52 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 12:24:52 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1075.8695ms
+2025-06-30 12:25:27 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/18""" - null null
+2025-06-30 12:25:27 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:25:27 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:25:27 [Information] [] Executed DbCommand ("18"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:25:27 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:25:27 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 125.7293ms
+2025-06-30 12:25:27 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:25:27 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/18""" - 200 null "application/json; charset=utf-8" 135.0446ms
+2025-06-30 12:25:29 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/18""" - null null
+2025-06-30 12:25:29 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:25:29 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:25:29 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:25:29 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:25:29 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 58.8144ms
+2025-06-30 12:25:29 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:25:29 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/18""" - 200 null "application/json; charset=utf-8" 59.9922ms
+2025-06-30 12:25:29 [Information] [] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/18""" - "application/json; charset=utf-8" null
+2025-06-30 12:25:29 [Information] [] Executing endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-30 12:25:29 [Information] [] Route matched with "{action = \"UpdateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(Int32, Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:25:29 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:25:29 [Information] [] Executed DbCommand ("27"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [Price] = @p0, [Quantity] = @p1
+OUTPUT 1
+WHERE [OrderId] = @p2;"
+2025-06-30 12:25:29 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:25:29 [Information] [] Executed action "Market.Controllers.OrderController.UpdateOrder (Market)" in 170.4729ms
+2025-06-30 12:25:29 [Information] [] Executed endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-30 12:25:29 [Information] [] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/18""" - 200 null "application/json; charset=utf-8" 175.8674ms
+2025-06-30 12:25:32 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/18""" - null null
+2025-06-30 12:25:32 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:25:32 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:25:32 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:25:32 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:25:32 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 3.8604ms
+2025-06-30 12:25:32 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 12:25:32 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/18""" - 200 null "application/json; charset=utf-8" 4.9965ms
+2025-06-30 12:25:33 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:25:33 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:25:33 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:25:33 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:25:33 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:25:33 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:25:33 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 5.3855ms
+2025-06-30 12:25:33 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 7.6921ms
+2025-06-30 12:25:33 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=BYiZ6DKmAJ89E6QmhGiV1w" - null null
+2025-06-30 12:25:33 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=-HDe1iF2mqC0z8U7YzQQHA" - null null
+2025-06-30 12:25:33 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:25:33 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:26:04 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:26:04 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:26:04 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:26:04 [Information] [] Executed DbCommand ("20"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:26:04 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:26:04 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 85.7287ms
+2025-06-30 12:26:04 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:26:04 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 88.9356ms
+2025-06-30 12:26:13 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:26:13 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:26:13 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:26:13 [Information] [] Executed DbCommand ("11"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:26:13 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:26:13 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 35.5444ms
+2025-06-30 12:26:13 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:26:13 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 36.6786ms
+2025-06-30 12:26:16 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:26:16 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:26:16 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:26:16 [Information] [] Executed DbCommand ("24"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:26:16 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:26:16 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 42.8375ms
+2025-06-30 12:26:16 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:26:16 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 43.479ms
+2025-06-30 12:27:34 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:27:34 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:27:34 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:27:34 [Information] [] Executed DbCommand ("10"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:27:34 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:27:34 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 36.0856ms
+2025-06-30 12:27:34 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:27:34 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 36.7643ms
+2025-06-30 12:27:37 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:27:37 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:27:37 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:27:37 [Information] [] Executed DbCommand ("9"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:27:37 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:27:37 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 26.8219ms
+2025-06-30 12:27:37 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:27:37 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 27.5699ms
+2025-06-30 12:29:46 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:29:46 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:29:46 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:29:46 [Information] [] Hosting environment: "Development"
+2025-06-30 12:29:46 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:29:46 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:29:46 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:29:46 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:29:46 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 91.3781ms
+2025-06-30 12:29:46 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=KbARcWTC4cFsDhZDI2cs7g" - null null
+2025-06-30 12:29:46 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:29:47 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:29:47 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 118.5711ms
+2025-06-30 12:29:47 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:29:47 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:29:47 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.5263ms
+2025-06-30 12:29:47 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.8106ms
+2025-06-30 12:29:48 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:29:48 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 13.1013ms
+2025-06-30 12:35:17 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:35:17 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:35:18 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:35:18 [Information] [] Hosting environment: "Development"
+2025-06-30 12:35:18 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:35:18 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:35:18 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:35:18 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:35:18 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 50.4786ms
+2025-06-30 12:35:18 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=53BmwmqpcujnfctfeVL2zA" - null null
+2025-06-30 12:35:18 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:35:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:35:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 105.6898ms
+2025-06-30 12:35:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:35:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:35:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 4.6275ms
+2025-06-30 12:35:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 34.9053ms
+2025-06-30 12:35:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:35:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.3595ms
+2025-06-30 12:35:46 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-30 12:35:46 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 12:35:46 [Information] [] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:35:47 [Information] [] Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-30 12:35:47 [Information] [] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-30 12:35:47 [Information] [] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 917.3259ms
+2025-06-30 12:35:47 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 12:35:47 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 941.9712ms
+2025-06-30 12:36:14 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:36:14 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:36:14 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:36:15 [Information] [] Executed DbCommand ("46"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:36:15 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:36:15 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 225.7128ms
+2025-06-30 12:36:15 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:36:15 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 235.0673ms
+2025-06-30 12:36:36 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:36:36 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:36:36 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:36:36 [Information] [] Executed DbCommand ("10"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:36:36 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:36:36 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 79.248ms
+2025-06-30 12:36:36 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:36:36 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 80.4214ms
+2025-06-30 12:36:46 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:36:46 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:36:46 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:36:46 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:36:46 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 11.6682ms
+2025-06-30 12:36:46 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:36:46 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:36:46 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 2.8607ms
+2025-06-30 12:36:46 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=0daMTtkXjIegLrNb3Z8zmw" - null null
+2025-06-30 12:36:46 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:36:46 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=n7VpTMNw380vkQjvKSEu4Q" - null null
+2025-06-30 12:36:46 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:36:57 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/1013""" - null null
+2025-06-30 12:36:57 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 12:36:57 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:36:57 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 12:36:57 [Information] [] Executed DbCommand ("12"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 12:36:57 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 12:36:57 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 137.2157ms
+2025-06-30 12:36:57 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 12:36:57 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/1013""" - 204 null null 141.6269ms
+2025-06-30 12:37:03 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:37:03 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:37:03 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:37:03 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 4.3086ms
+2025-06-30 12:37:03 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:37:03 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:37:03 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:37:03 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 2.5301ms
+2025-06-30 12:37:03 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=1lhAs4zZRrlydp7Rbfq6kA" - null null
+2025-06-30 12:37:03 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:37:03 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=klvzrObHwoaZwmMqqyJ3Ww" - null null
+2025-06-30 12:37:03 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:51:21 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:51:21 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:51:21 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:51:21 [Information] [] Hosting environment: "Development"
+2025-06-30 12:51:21 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:51:21 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:51:21 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:51:21 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:51:21 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 48.3831ms
+2025-06-30 12:51:21 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=-iOfe1m1jBapkJ-7d4uJtQ" - null null
+2025-06-30 12:51:21 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:51:24 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:51:25 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 148.7927ms
+2025-06-30 12:51:25 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:51:25 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:51:25 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 6.6076ms
+2025-06-30 12:51:25 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 40.8749ms
+2025-06-30 12:51:25 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:51:25 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 14.223ms
+2025-06-30 12:52:51 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:52:51 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:52:52 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:52:52 [Information] [] Hosting environment: "Development"
+2025-06-30 12:52:52 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:52:52 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:52:52 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:52:52 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:52:52 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 50.0048ms
+2025-06-30 12:52:52 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=wGHKdBoEZ7aUWDpxkaGp3Q" - null null
+2025-06-30 12:52:52 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:52:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:52:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 102.2912ms
+2025-06-30 12:52:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:52:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:52:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 15.7392ms
+2025-06-30 12:52:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 56.6575ms
+2025-06-30 12:52:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:52:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 14.0197ms
+2025-06-30 12:53:22 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:53:22 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:53:22 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:53:23 [Information] [] Executed DbCommand ("46"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:53:23 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:53:23 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 908.0565ms
+2025-06-30 12:53:23 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:53:23 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 930.6866ms
+2025-06-30 12:54:50 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:54:50 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:54:50 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:54:50 [Information] [] Hosting environment: "Development"
+2025-06-30 12:54:50 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:54:50 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:54:50 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:54:50 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:54:50 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 55.2989ms
+2025-06-30 12:54:50 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=t2jVsfBS5B-QrMUyHuoOLg" - null null
+2025-06-30 12:54:50 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:54:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:54:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 126.7323ms
+2025-06-30 12:54:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:54:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:54:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 8.576ms
+2025-06-30 12:54:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 47.6677ms
+2025-06-30 12:54:55 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:54:55 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 12.9619ms
+2025-06-30 12:55:13 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:55:13 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:55:13 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:55:14 [Information] [] Executed DbCommand ("55"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:55:14 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:55:14 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 1077.2144ms
+2025-06-30 12:55:14 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:55:14 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1103.0497ms
+2025-06-30 12:58:45 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 12:58:45 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 12:58:45 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 12:58:45 [Information] [] Hosting environment: "Development"
+2025-06-30 12:58:45 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 12:58:46 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:58:46 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:58:46 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:58:46 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 52.5686ms
+2025-06-30 12:58:46 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=MWAyr5_Es62qmUvoITiXmQ" - null null
+2025-06-30 12:58:46 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:58:54 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 12:58:54 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 114.3276ms
+2025-06-30 12:58:54 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 12:58:54 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 12:58:54 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.5819ms
+2025-06-30 12:58:54 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.5252ms
+2025-06-30 12:58:54 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 12:58:54 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.4024ms
+2025-06-30 12:59:16 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 12:59:16 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:59:16 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 12:59:17 [Information] [] Executed DbCommand ("46"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 12:59:17 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 12:59:17 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 950.112ms
+2025-06-30 12:59:17 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 12:59:17 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 973.2218ms
+2025-06-30 12:59:30 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:59:30 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:59:30 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:59:30 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 2.7ms
+2025-06-30 12:59:30 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 12:59:30 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:59:30 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 12:59:30 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 1.4752ms
+2025-06-30 12:59:30 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=p7QJITYbQ8JeGCWiWBfKgA" - null null
+2025-06-30 12:59:30 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 12:59:30 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=YHQBsk9XhEXJgJdEr6jxaQ" - null null
+2025-06-30 12:59:30 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:02:38 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 13:02:38 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 13:02:38 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:02:38 [Information] [] Hosting environment: "Development"
+2025-06-30 13:02:38 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 13:02:38 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:02:38 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:02:38 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:02:38 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 53.6313ms
+2025-06-30 13:02:38 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=Jm6sBL6kZeAsIEKKfvlQcQ" - null null
+2025-06-30 13:02:38 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:02:44 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 13:02:44 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 123.703ms
+2025-06-30 13:02:44 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 13:02:44 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 13:02:44 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 6.202ms
+2025-06-30 13:02:44 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.2227ms
+2025-06-30 13:02:44 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 13:02:44 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 17.7902ms
+2025-06-30 13:03:06 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 13:03:06 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 13:03:06 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:03:07 [Information] [] Executed DbCommand ("61"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 13:03:07 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:03:07 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 1126.7805ms
+2025-06-30 13:03:07 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 13:03:07 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1152.035ms
+2025-06-30 13:03:18 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:03:18 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:03:18 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:03:18 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 5.5854ms
+2025-06-30 13:03:18 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:03:18 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:03:18 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:03:18 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 0.9277ms
+2025-06-30 13:03:18 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=6TBfWbpUglQyoXLOxJXibA" - null null
+2025-06-30 13:03:18 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=_vmgDkvvpVP1I-ubKBjanQ" - null null
+2025-06-30 13:03:18 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:03:18 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:09:33 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 13:09:33 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 13:09:33 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:09:33 [Information] [] Hosting environment: "Development"
+2025-06-30 13:09:33 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 13:09:33 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:09:33 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:09:33 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:09:33 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 49.0148ms
+2025-06-30 13:09:33 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=bJjSxZxhNoxLzBrgAuEoMQ" - null null
+2025-06-30 13:09:33 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:09:34 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 13:09:34 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 107.052ms
+2025-06-30 13:09:34 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 13:09:34 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 13:09:34 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.7606ms
+2025-06-30 13:09:34 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.2518ms
+2025-06-30 13:09:34 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 13:09:34 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 12.6662ms
+2025-06-30 13:09:50 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-30 13:09:50 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 13:09:51 [Information] [] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:09:51 [Information] [] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-30 13:09:52 [Information] [] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-30 13:09:52 [Information] [] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 1031.5225ms
+2025-06-30 13:09:52 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 13:09:52 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1058.0466ms
+2025-06-30 13:09:55 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - null null
+2025-06-30 13:09:55 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 13:09:55 [Information] [] Route matched with "{action = \"GetAllOrders\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Market.Models.Order]] GetAllOrders()" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:09:55 [Information] [] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]"
+2025-06-30 13:09:55 [Information] [] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[Market.Models.Order, Market, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2025-06-30 13:09:55 [Information] [] Executed action "Market.Controllers.OrderController.GetAllOrders (Market)" in 24.2603ms
+2025-06-30 13:09:55 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetAllOrders (Market)"'
+2025-06-30 13:09:55 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 26.4071ms
+2025-06-30 13:10:19 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 13:10:19 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 13:10:19 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:10:19 [Information] [] Executed DbCommand ("37"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 13:10:19 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:10:19 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 240.8523ms
+2025-06-30 13:10:19 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 13:10:19 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 257.5123ms
+2025-06-30 13:11:04 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/34""" - null null
+2025-06-30 13:11:04 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:04 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:04 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:04 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:11:04 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 97.6908ms
+2025-06-30 13:11:04 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:04 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/34""" - 200 null "application/json; charset=utf-8" 111.7243ms
+2025-06-30 13:11:22 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/34""" - null null
+2025-06-30 13:11:22 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:22 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:22 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:22 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:11:22 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 7.1104ms
+2025-06-30 13:11:22 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:22 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/34""" - 200 null "application/json; charset=utf-8" 8.0298ms
+2025-06-30 13:11:22 [Information] [] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/34""" - "application/json; charset=utf-8" null
+2025-06-30 13:11:22 [Information] [] Executing endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-30 13:11:22 [Information] [] Route matched with "{action = \"UpdateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(Int32, Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:22 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:22 [Information] [] Executed DbCommand ("14"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [Price] = @p0, [Quantity] = @p1
+OUTPUT 1
+WHERE [OrderId] = @p2;"
+2025-06-30 13:11:22 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:11:22 [Information] [] Executed action "Market.Controllers.OrderController.UpdateOrder (Market)" in 47.8178ms
+2025-06-30 13:11:22 [Information] [] Executed endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-30 13:11:22 [Information] [] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/34""" - 200 null "application/json; charset=utf-8" 51.1834ms
+2025-06-30 13:11:24 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/34""" - null null
+2025-06-30 13:11:24 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:24 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:24 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:24 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:11:24 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 3.9176ms
+2025-06-30 13:11:24 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:24 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/34""" - 200 null "application/json; charset=utf-8" 4.6273ms
+2025-06-30 13:11:33 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/13""" - null null
+2025-06-30 13:11:33 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:11:33 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:33 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:33 [Information] [] Executed DbCommand ("9"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 13:11:33 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 13:11:33 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 51.0281ms
+2025-06-30 13:11:33 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:11:33 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/13""" - 204 null null 54.7813ms
+2025-06-30 13:11:37 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/13""" - null null
+2025-06-30 13:11:37 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:11:37 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:37 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:37 [Information] [] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-06-30 13:11:37 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 21.6477ms
+2025-06-30 13:11:37 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:11:37 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/13""" - 404 null "application/problem+json; charset=utf-8" 22.3787ms
+2025-06-30 13:11:48 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/12""" - null null
+2025-06-30 13:11:48 [Information] [] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:48 [Information] [] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:11:48 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:11:48 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:11:48 [Information] [] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 3.6916ms
+2025-06-30 13:11:48 [Information] [] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-30 13:11:48 [Information] [] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/12""" - 200 null "application/json; charset=utf-8" 4.334ms
+2025-06-30 13:16:57 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 13:16:57 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 13:16:57 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:16:57 [Information] [] Hosting environment: "Development"
+2025-06-30 13:16:57 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 13:16:58 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:16:58 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:16:58 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:16:58 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 47.99ms
+2025-06-30 13:16:58 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=Ei9dhr-FWVnVKE5usocohg" - null null
+2025-06-30 13:16:58 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:17:00 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 13:17:01 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 175.3644ms
+2025-06-30 13:17:01 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 13:17:01 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 13:17:01 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.7446ms
+2025-06-30 13:17:01 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 42.2572ms
+2025-06-30 13:17:01 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 13:17:01 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 14.1819ms
+2025-06-30 13:17:27 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 13:17:27 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 13:17:27 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:17:28 [Information] [] Executed DbCommand ("46"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 13:17:28 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 13:17:28 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 982.2874ms
+2025-06-30 13:17:28 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 13:17:28 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1006.4682ms
+2025-06-30 13:19:37 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 13:19:37 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 13:19:37 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:19:37 [Information] [] Hosting environment: "Development"
+2025-06-30 13:19:37 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 13:19:38 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:19:38 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:19:38 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:19:38 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 63.3136ms
+2025-06-30 13:19:38 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=DfayvJOK0VDUFZtoaHeUow" - null null
+2025-06-30 13:19:38 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:19:39 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 13:19:39 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 106.4239ms
+2025-06-30 13:19:39 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 13:19:39 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 13:19:39 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.0033ms
+2025-06-30 13:19:39 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.9684ms
+2025-06-30 13:19:39 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 13:19:39 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 16.0372ms
+2025-06-30 13:20:15 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/17""" - null null
+2025-06-30 13:20:15 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:20:15 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:20:16 [Information] [] Executed DbCommand ("33"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:20:16 [Information] [] Executed DbCommand ("14"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 13:20:16 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 13:20:16 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 1116.7113ms
+2025-06-30 13:20:16 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:20:16 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/17""" - 204 null null 1140.3663ms
+2025-06-30 13:21:57 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 13:21:57 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 13:21:57 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:21:57 [Information] [] Hosting environment: "Development"
+2025-06-30 13:21:57 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 13:21:57 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:21:57 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:21:57 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:21:57 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 52.2959ms
+2025-06-30 13:21:57 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=ZtK1XwC3TTI6vAez4dRvTA" - null null
+2025-06-30 13:21:57 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:22:00 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 13:22:00 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 99.3221ms
+2025-06-30 13:22:00 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 13:22:00 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 4.4704ms
+2025-06-30 13:22:00 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 13:22:00 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.9642ms
+2025-06-30 13:22:00 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 13:22:00 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 16.6739ms
+2025-06-30 13:22:29 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/16""" - null null
+2025-06-30 13:22:29 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:22:29 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:22:30 [Information] [] Executed DbCommand ("30"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:22:31 [Information] [] Executed DbCommand ("13"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 13:22:31 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 13:22:31 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 1124.24ms
+2025-06-30 13:22:31 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:22:31 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/16""" - 204 null null 1153.5871ms
+2025-06-30 13:26:14 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 13:26:14 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 13:26:14 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 13:26:14 [Information] [] Hosting environment: "Development"
+2025-06-30 13:26:14 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 13:26:14 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 13:26:14 [Information] [] Executing endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:26:14 [Information] [] Executed endpoint '"/OrderHub/negotiate"'
+2025-06-30 13:26:14 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 200 316 "application/json" 52.9641ms
+2025-06-30 13:26:14 [Information] [] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/OrderHub""?id=iOjZncbkHLr40PuvfePopw" - null null
+2025-06-30 13:26:14 [Information] [] Executing endpoint '"/OrderHub"'
+2025-06-30 13:26:17 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 13:26:17 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 104.8378ms
+2025-06-30 13:26:17 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 13:26:17 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 13:26:17 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.4678ms
+2025-06-30 13:26:17 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.6447ms
+2025-06-30 13:26:17 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 13:26:17 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 12.2132ms
+2025-06-30 13:26:34 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/24""" - null null
+2025-06-30 13:26:34 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:26:34 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 13:26:35 [Information] [] Executed DbCommand ("27"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 13:26:35 [Information] [] Executed DbCommand ("15"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 13:26:35 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 13:26:35 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 1246.3294ms
+2025-06-30 13:26:35 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 13:26:35 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/24""" - 204 null null 1274.3787ms
+2025-06-30 14:46:03 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 14:46:03 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 14:46:03 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:46:03 [Information] [] Hosting environment: "Development"
+2025-06-30 14:46:03 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 14:46:03 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 14:46:03 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 404 0 null 39.7937ms
+2025-06-30 14:46:03 [Information] [] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "https"://"localhost:7091""""/OrderHub/negotiate", Response status code: 404
+2025-06-30 14:46:08 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 14:46:08 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 171.105ms
+2025-06-30 14:46:08 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 14:46:08 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 14:46:08 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 7.1803ms
+2025-06-30 14:46:08 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 54.4168ms
+2025-06-30 14:46:08 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 14:46:08 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.2893ms
+2025-06-30 14:47:46 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 14:47:46 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 14:47:47 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 14:47:47 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 14:47:47 [Information] [] Hosting environment: "Development"
+2025-06-30 14:47:47 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 14:47:47 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 404 0 null 75.4952ms
+2025-06-30 14:47:47 [Information] [] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "https"://"localhost:7091""""/OrderHub/negotiate", Response status code: 404
+2025-06-30 14:47:50 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 14:47:50 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 150.1458ms
+2025-06-30 14:47:50 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 14:47:50 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 14:47:51 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 8.4879ms
+2025-06-30 14:47:51 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 47.3817ms
+2025-06-30 14:47:51 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 14:47:51 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 20.8144ms
+2025-06-30 15:04:50 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 15:04:50 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 15:04:50 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 15:04:50 [Information] [] Hosting environment: "Development"
+2025-06-30 15:04:50 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 15:04:51 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 15:04:51 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 404 0 null 37.6836ms
+2025-06-30 15:04:51 [Information] [] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "https"://"localhost:7091""""/OrderHub/negotiate", Response status code: 404
+2025-06-30 15:04:52 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 15:04:52 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 128.8759ms
+2025-06-30 15:04:52 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 15:04:52 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 15:04:52 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 5.1481ms
+2025-06-30 15:04:52 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 36.6297ms
+2025-06-30 15:04:52 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 15:04:52 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.3902ms
+2025-06-30 15:05:23 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 15:05:23 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 15:05:23 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 15:05:23 [Information] [] Hosting environment: "Development"
+2025-06-30 15:05:23 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 15:05:24 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - null 0
+2025-06-30 15:05:24 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:7091""""/OrderHub/negotiate""?negotiateVersion=1" - 404 0 null 34.6815ms
+2025-06-30 15:05:24 [Information] [] Request reached the end of the middleware pipeline without being handled by application code. Request path: "POST" "https"://"localhost:7091""""/OrderHub/negotiate", Response status code: 404
+2025-06-30 15:05:26 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 15:05:26 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 120.1959ms
+2025-06-30 15:05:26 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 15:05:26 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 15:05:26 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 14.3478ms
+2025-06-30 15:05:26 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 50.4263ms
+2025-06-30 15:05:27 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 15:05:27 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 19.2349ms
+2025-06-30 15:10:16 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 15:10:16 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 15:10:16 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 15:10:16 [Information] [] Hosting environment: "Development"
+2025-06-30 15:10:16 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 15:10:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 15:10:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 168.0522ms
+2025-06-30 15:10:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 15:10:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 15:10:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 13.8637ms
+2025-06-30 15:10:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.2852ms
+2025-06-30 15:10:23 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 15:10:23 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 12.4192ms
+2025-06-30 15:11:09 [Information] [] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-30 15:11:09 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 15:11:09 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 15:11:10 [Information] [] Executed DbCommand ("66"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-30 15:11:11 [Information] [] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-30 15:11:11 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 1417.4088ms
+2025-06-30 15:11:11 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 15:11:11 [Information] [] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 1470.2081ms
+2025-06-30 15:17:33 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 15:17:33 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 15:17:33 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 15:17:33 [Information] [] Hosting environment: "Development"
+2025-06-30 15:17:33 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 15:17:40 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 15:17:40 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 192.9149ms
+2025-06-30 15:17:40 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 15:17:40 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 15:17:40 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 15.1215ms
+2025-06-30 15:17:40 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 53.9507ms
+2025-06-30 15:17:40 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 15:17:40 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 17.2299ms
+2025-06-30 15:18:28 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/2""" - null null
+2025-06-30 15:18:28 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 15:18:28 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 15:18:29 [Information] [] Executed DbCommand ("30"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 15:18:30 [Information] [] Executed DbCommand ("19"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 15:18:30 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 15:18:30 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 1335.674ms
+2025-06-30 15:18:30 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 15:18:30 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/2""" - 204 null null 1386.0527ms
+2025-06-30 15:18:32 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/2""" - null null
+2025-06-30 15:18:32 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 15:18:32 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 15:18:32 [Information] [] Executed DbCommand ("2"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 15:18:32 [Information] [] Executing "ObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+2025-06-30 15:18:32 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 40.2838ms
+2025-06-30 15:18:32 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 15:18:32 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/2""" - 404 null "application/problem+json; charset=utf-8" 42.6681ms
+2025-06-30 15:26:17 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 15:26:17 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 15:26:17 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 15:26:17 [Information] [] Hosting environment: "Development"
+2025-06-30 15:26:17 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 15:26:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 15:26:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 176.0812ms
+2025-06-30 15:26:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 15:26:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 15:26:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 73.2123ms
+2025-06-30 15:26:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 97.606ms
+2025-06-30 15:26:22 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 15:26:22 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.2931ms
+2025-06-30 15:27:04 [Information] [] Request starting "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/14""" - null null
+2025-06-30 15:27:04 [Information] [] Executing endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 15:27:04 [Information] [] Route matched with "{action = \"DeleteOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 15:27:05 [Information] [] Executed DbCommand ("27"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[CustomerName], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-30 15:27:05 [Information] [] Executed DbCommand ("13"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Orders]
+OUTPUT 1
+WHERE [OrderId] = @p0;"
+2025-06-30 15:27:05 [Information] [] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-30 15:27:05 [Information] [] Executed action "Market.Controllers.OrderController.DeleteOrder (Market)" in 1173.7328ms
+2025-06-30 15:27:05 [Information] [] Executed endpoint '"Market.Controllers.OrderController.DeleteOrder (Market)"'
+2025-06-30 15:27:05 [Information] [] Request finished "HTTP/1.1" "DELETE" "https"://"localhost:7091""""/api/order/14""" - 204 null null 1217.3667ms
+2025-06-30 15:41:48 [Information] [] Now listening on: "https://localhost:7091"
+2025-06-30 15:41:48 [Information] [] Now listening on: "http://localhost:5226"
+2025-06-30 15:41:48 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 15:41:48 [Information] [] Hosting environment: "Development"
+2025-06-30 15:41:48 [Information] [] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-30 15:41:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-30 15:41:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 255.6902ms
+2025-06-30 15:41:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-30 15:41:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-30 15:41:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 7.3407ms
+2025-06-30 15:41:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 57.5753ms
+2025-06-30 15:41:53 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-30 15:41:53 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 25.3361ms
+2025-06-30 18:23:23 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 18:23:23 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 18:23:23 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 18:23:23 [Information] [] Hosting environment: "Development"
+2025-06-30 18:23:23 [Information] [] Content root path: "/app"
+2025-06-30 18:28:28 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger""" - null null
+2025-06-30 18:28:28 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger""" - 301 0 null 75.5649ms
+2025-06-30 18:28:28 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/index.html""" - null null
+2025-06-30 18:28:28 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 199.5669ms
+2025-06-30 18:28:28 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/swagger-ui.css""" - null null
+2025-06-30 18:28:28 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/swagger-ui-bundle.js""" - null null
+2025-06-30 18:28:28 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2025-06-30 18:28:28 [Information] [] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-06-30 18:28:28 [Information] [] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-06-30 18:28:28 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 225.3651ms
+2025-06-30 18:28:28 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 227.2586ms
+2025-06-30 18:28:28 [Information] [] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-06-30 18:28:28 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 389.2767ms
+2025-06-30 18:28:29 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/v1/swagger.json""" - null null
+2025-06-30 18:28:29 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/favicon-32x32.png""" - null null
+2025-06-30 18:28:29 [Information] [] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-06-30 18:28:29 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 3.995ms
+2025-06-30 18:28:29 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32769""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 287.1783ms
+2025-06-30 18:29:08 [Information] [] Request starting "HTTP/2" "POST" "https"://"localhost:32769""""/api/Order""" - "application/json" 139
+2025-06-30 18:29:08 [Information] [] CORS policy execution successful.
+2025-06-30 18:29:08 [Information] [] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 18:29:08 [Information] [] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-30 18:29:26 [Error] [] An error occurred using the connection to database '"MarketDB"' on server '"localhost,1433"'.
+2025-06-30 18:29:26 [Error] [] An exception occurred in the database while saving changes for context type '"Market.Data.MarketDbContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-06-30 18:29:26 [Information] [] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 18131.8933ms
+2025-06-30 18:29:26 [Information] [] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-30 18:29:26 [Error] [] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Market.Controllers.OrderController.CreateOrder(Order order) in C:\Users\menna\source\repos\Market\Market\Controllers\OrderController.cs:line 46
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at UsernameLoggingMiddleware.Invoke(HttpContext context) in C:\Users\menna\source\repos\Market\Market\UsernameLoggingMiddleware.cs:line 22
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2025-06-30 18:29:27 [Information] [] Request finished "HTTP/2" "POST" "https"://"localhost:32769""""/api/Order""" - 500 null "text/plain; charset=utf-8" 18855.4144ms
+2025-06-30 20:37:10 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 20:37:10 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 20:37:10 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 20:37:10 [Information] [] Hosting environment: "Development"
+2025-06-30 20:37:10 [Information] [] Content root path: "/app"
+2025-06-30 20:37:32 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger""" - null null
+2025-06-30 20:37:32 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger""" - 301 0 null 64.7831ms
+2025-06-30 20:37:33 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/index.html""" - null null
+2025-06-30 20:37:33 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 212.7245ms
+2025-06-30 20:37:33 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/swagger-ui.css""" - null null
+2025-06-30 20:37:33 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2025-06-30 20:37:33 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/swagger-ui-bundle.js""" - null null
+2025-06-30 20:37:33 [Information] [] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-06-30 20:37:33 [Information] [] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-06-30 20:37:33 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 186.1994ms
+2025-06-30 20:37:33 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 210.1166ms
+2025-06-30 20:37:33 [Information] [] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-06-30 20:37:33 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 341.8298ms
+2025-06-30 20:37:33 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/v1/swagger.json""" - null null
+2025-06-30 20:37:33 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/favicon-32x32.png""" - null null
+2025-06-30 20:37:33 [Information] [] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-06-30 20:37:33 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 4.637ms
+2025-06-30 20:37:34 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32771""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 281.8168ms
+2025-06-30 20:48:32 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 20:48:32 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 20:48:32 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 20:48:32 [Information] [] Hosting environment: "Development"
+2025-06-30 20:48:32 [Information] [] Content root path: "/app"
+2025-06-30 20:56:28 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 20:56:28 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 20:56:28 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 20:56:28 [Information] [] Hosting environment: "Development"
+2025-06-30 20:56:28 [Information] [] Content root path: "/app"
+2025-06-30 21:04:54 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 21:04:54 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 21:04:54 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 21:04:54 [Information] [] Hosting environment: "Development"
+2025-06-30 21:04:54 [Information] [] Content root path: "/app"
+2025-06-30 21:07:43 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 21:07:43 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 21:07:43 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 21:07:43 [Information] [] Hosting environment: "Development"
+2025-06-30 21:07:43 [Information] [] Content root path: "/app"
+2025-06-30 21:08:06 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger""" - null null
+2025-06-30 21:08:06 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger""" - 301 0 null 47.0425ms
+2025-06-30 21:08:06 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/index.html""" - null null
+2025-06-30 21:08:06 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 170.121ms
+2025-06-30 21:08:06 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/swagger-ui.css""" - null null
+2025-06-30 21:08:06 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2025-06-30 21:08:06 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/swagger-ui-bundle.js""" - null null
+2025-06-30 21:08:06 [Information] [] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2025-06-30 21:08:06 [Information] [] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2025-06-30 21:08:06 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 233.3668ms
+2025-06-30 21:08:06 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 234.5333ms
+2025-06-30 21:08:07 [Information] [] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2025-06-30 21:08:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 399.7516ms
+2025-06-30 21:08:07 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/v1/swagger.json""" - null null
+2025-06-30 21:08:07 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/favicon-32x32.png""" - null null
+2025-06-30 21:08:07 [Information] [] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-06-30 21:08:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 26.1761ms
+2025-06-30 21:08:07 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 243.4075ms
+2025-06-30 21:09:16 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 21:09:16 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 21:09:16 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 21:09:16 [Information] [] Hosting environment: "Development"
+2025-06-30 21:09:16 [Information] [] Content root path: "/app"
+2025-06-30 21:09:38 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/index.html""" - null null
+2025-06-30 21:09:38 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 286.4949ms
+2025-06-30 21:09:38 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/v1/swagger.json""" - null null
+2025-06-30 21:09:39 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 279.055ms
+2025-06-30 21:15:07 [Information] [] Now listening on: "http://[::]:8080"
+2025-06-30 21:15:07 [Information] [] Now listening on: "https://[::]:8081"
+2025-06-30 21:15:07 [Information] [] Application started. Press Ctrl+C to shut down.
+2025-06-30 21:15:07 [Information] [] Hosting environment: "Development"
+2025-06-30 21:15:07 [Information] [] Content root path: "/app"
+2025-06-30 21:15:29 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/index.html""" - null null
+2025-06-30 21:15:29 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 261.2201ms
+2025-06-30 21:15:29 [Information] [] Request starting "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/v1/swagger.json""" - null null
+2025-06-30 21:15:30 [Information] [] Request finished "HTTP/2" "GET" "https"://"localhost:32777""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 238.8391ms

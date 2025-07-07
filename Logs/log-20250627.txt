@@ -1,0 +1,430 @@
+2025-06-27 16:34:32 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 16:34:32 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 16:34:32 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 16:34:32 [Information] Hosting environment: "Development"
+2025-06-27 16:34:32 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 16:34:34 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 16:34:35 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 613.259ms
+2025-06-27 16:34:35 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 16:34:35 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 16:34:35 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 11.8717ms
+2025-06-27 16:34:35 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 126.9451ms
+2025-06-27 16:34:35 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 16:34:35 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 38.5597ms
+2025-06-27 16:36:25 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-27 16:36:25 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 16:36:25 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-27 16:36:28 [Information] Executed DbCommand ("99"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-27 16:36:28 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-27 16:36:28 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 2674.1513ms
+2025-06-27 16:36:28 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 16:36:28 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 2762.7003ms
+2025-06-27 16:36:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 16:36:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 36.5377ms
+2025-06-27 16:36:46 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/favicon.ico""" - null null
+2025-06-27 16:36:46 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/favicon.ico""" - 404 0 null 2.2846ms
+2025-06-27 16:36:46 [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7091""""/favicon.ico", Response status code: 404
+2025-06-27 16:37:17 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-27 16:37:17 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 16:37:17 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-27 16:37:17 [Information] Executed DbCommand ("30"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4);"
+2025-06-27 16:37:17 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-27 16:37:17 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 167.9504ms
+2025-06-27 16:37:17 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 16:37:17 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 200 null "application/json; charset=utf-8" 171.6892ms
+2025-06-27 16:38:26 [Information] Request starting "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/1013""" - null null
+2025-06-27 16:38:26 [Information] Executing endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-27 16:38:26 [Information] Route matched with "{action = \"GetOrder\", controller = \"Order\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult`1[Market.Models.Order] GetOrder(Int32)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-27 16:38:27 [Information] Executed DbCommand ("6"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-27 16:38:27 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-27 16:38:27 [Information] Executed action "Market.Controllers.OrderController.GetOrder (Market)" in 612.8494ms
+2025-06-27 16:38:27 [Information] Executed endpoint '"Market.Controllers.OrderController.GetOrder (Market)"'
+2025-06-27 16:38:27 [Information] Request finished "HTTP/1.1" "GET" "https"://"localhost:7091""""/api/order/1013""" - 200 null "application/json; charset=utf-8" 633.1282ms
+2025-06-27 16:38:27 [Information] Request starting "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/1013""" - "application/json; charset=utf-8" null
+2025-06-27 16:38:27 [Information] Executing endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-27 16:38:27 [Information] Route matched with "{action = \"UpdateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOrder(Int32, Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-27 16:38:27 [Information] Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [o].[OrderId], [o].[CustomerId], [o].[Direction], [o].[Price], [o].[Products], [o].[Quantity]
+FROM [Orders] AS [o]
+WHERE [o].[OrderId] = @__p_0"
+2025-06-27 16:38:27 [Information] Executed DbCommand ("14"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Orders] SET [Price] = @p0, [Quantity] = @p1
+OUTPUT 1
+WHERE [OrderId] = @p2;"
+2025-06-27 16:38:27 [Information] Executing "OkObjectResult", writing value of type '"Market.Models.Order"'.
+2025-06-27 16:38:27 [Information] Executed action "Market.Controllers.OrderController.UpdateOrder (Market)" in 73.4297ms
+2025-06-27 16:38:27 [Information] Executed endpoint '"Market.Controllers.OrderController.UpdateOrder (Market)"'
+2025-06-27 16:38:27 [Information] Request finished "HTTP/1.1" "PUT" "https"://"localhost:7091""""/api/order/1013""" - 200 null "application/json; charset=utf-8" 80.7843ms
+2025-06-27 17:06:14 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 17:06:14 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 17:06:14 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:06:14 [Information] Hosting environment: "Development"
+2025-06-27 17:06:14 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 17:06:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 17:06:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 384.222ms
+2025-06-27 17:06:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 17:06:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 17:06:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 9.1872ms
+2025-06-27 17:06:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 74.5578ms
+2025-06-27 17:06:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 17:06:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 25.0415ms
+2025-06-27 17:07:12 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 17:07:12 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 17:07:12 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:07:12 [Information] Hosting environment: "Development"
+2025-06-27 17:07:12 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 17:07:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 17:07:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 331.5892ms
+2025-06-27 17:07:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 17:07:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 17:07:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 8.6141ms
+2025-06-27 17:07:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 66.8577ms
+2025-06-27 17:07:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 17:07:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 22.3047ms
+2025-06-27 17:27:36 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 17:27:36 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 17:27:37 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 17:27:37 [Information] Hosting environment: "Development"
+2025-06-27 17:27:37 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 17:27:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 17:27:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 340.9505ms
+2025-06-27 17:27:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 17:27:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 17:27:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 10.9569ms
+2025-06-27 17:27:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 68.614ms
+2025-06-27 17:27:37 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 17:27:37 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 22.8047ms
+2025-06-27 21:43:14 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 21:43:15 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 21:43:15 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 21:43:15 [Information] Hosting environment: "Development"
+2025-06-27 21:43:15 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 21:43:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 21:43:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 394.2963ms
+2025-06-27 21:43:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 21:43:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 8.7217ms
+2025-06-27 21:43:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 21:43:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 82.7652ms
+2025-06-27 21:43:16 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 21:43:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 28.4117ms
+2025-06-27 21:43:16 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/favicon-32x32.png""" - null null
+2025-06-27 21:43:16 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2025-06-27 21:43:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 18.7227ms
+2025-06-27 22:00:43 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:00:43 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:00:43 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:00:43 [Information] Hosting environment: "Development"
+2025-06-27 22:00:43 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:00:44 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:00:44 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 387.1665ms
+2025-06-27 22:00:44 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:00:44 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:00:44 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 9.5671ms
+2025-06-27 22:00:44 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 82.927ms
+2025-06-27 22:00:44 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:00:44 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 26.1737ms
+2025-06-27 22:05:57 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:05:57 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:05:57 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:05:57 [Information] Hosting environment: "Development"
+2025-06-27 22:05:57 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:05:58 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:05:58 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 429.2686ms
+2025-06-27 22:05:58 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:05:58 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:05:58 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 9.8762ms
+2025-06-27 22:05:58 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 75.3927ms
+2025-06-27 22:05:59 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:05:59 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 28.752ms
+2025-06-27 22:15:14 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:15:14 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:15:15 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:15:15 [Information] Hosting environment: "Development"
+2025-06-27 22:15:15 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:15:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:15:15 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 433.0986ms
+2025-06-27 22:15:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:15:15 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:15:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 30.0698ms
+2025-06-27 22:15:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 136.6489ms
+2025-06-27 22:15:16 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:15:16 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 32.2894ms
+2025-06-27 22:17:12 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:17:12 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:17:12 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:17:12 [Information] Hosting environment: "Development"
+2025-06-27 22:17:12 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:17:12 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:17:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:17:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:17:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 372.7689ms
+2025-06-27 22:17:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 24.4094ms
+2025-06-27 22:17:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 103.9233ms
+2025-06-27 22:17:13 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:17:13 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 27.5141ms
+2025-06-27 22:20:55 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:20:55 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:20:55 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:20:55 [Information] Hosting environment: "Development"
+2025-06-27 22:20:55 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:20:55 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:20:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 392.352ms
+2025-06-27 22:20:56 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:20:56 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:20:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 9.988ms
+2025-06-27 22:20:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 107.6707ms
+2025-06-27 22:20:56 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:20:56 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 26.274ms
+2025-06-27 22:24:52 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:24:52 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:24:52 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:24:52 [Information] Hosting environment: "Development"
+2025-06-27 22:24:52 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:24:52 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:24:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 411.333ms
+2025-06-27 22:24:53 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:24:53 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:24:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 15.3106ms
+2025-06-27 22:24:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 97.938ms
+2025-06-27 22:24:53 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:24:53 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 32.8548ms
+2025-06-27 22:36:22 [Information] Now listening on: "https://localhost:7091"
+2025-06-27 22:36:22 [Information] Now listening on: "http://localhost:5226"
+2025-06-27 22:36:22 [Information] Application started. Press Ctrl+C to shut down.
+2025-06-27 22:36:22 [Information] Hosting environment: "Development"
+2025-06-27 22:36:22 [Information] Content root path: "C:\Users\menna\source\repos\Market\Market"
+2025-06-27 22:36:22 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - null null
+2025-06-27 22:36:22 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 346.9828ms
+2025-06-27 22:36:22 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2025-06-27 22:36:22 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - null null
+2025-06-27 22:36:22 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_framework/aspnetcore-browser-refresh.js""" - 200 13748 "application/javascript; charset=utf-8" 10.7869ms
+2025-06-27 22:36:23 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 70.9106ms
+2025-06-27 22:36:23 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - null null
+2025-06-27 22:36:23 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7091""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 23.528ms
+2025-06-27 22:38:12 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-27 22:38:12 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 22:38:12 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-27 22:38:15 [Error] Failed executing DbCommand ("115"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-27 22:38:15 [Error] An exception occurred in the database while saving changes for context type '"Market.Data.MarketDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CustomerName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:44b5407a-b7e6-4fe6-bd52-d0e1bfb4fdca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CustomerName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:44b5407a-b7e6-4fe6-bd52-d0e1bfb4fdca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-06-27 22:38:15 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 2416.8496ms
+2025-06-27 22:38:15 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 22:38:15 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CustomerName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:44b5407a-b7e6-4fe6-bd52-d0e1bfb4fdca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Market.Controllers.OrderController.CreateOrder(Order order) in C:\Users\menna\source\repos\Market\Market\Controllers\OrderController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27 22:38:15 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 500 null "text/plain; charset=utf-8" 2550.1978ms
+2025-06-27 22:38:27 [Information] Request starting "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - "application/json; charset=utf-8" null
+2025-06-27 22:38:27 [Information] Executing endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 22:38:27 [Information] Route matched with "{action = \"CreateOrder\", controller = \"Order\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(Market.Models.Order)" on controller "Market.Controllers.OrderController" ("Market").
+2025-06-27 22:38:27 [Error] Failed executing DbCommand ("12"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [CustomerName], [Direction], [Price], [Products], [Quantity])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+2025-06-27 22:38:27 [Error] An exception occurred in the database while saving changes for context type '"Market.Data.MarketDbContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CustomerName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:44b5407a-b7e6-4fe6-bd52-d0e1bfb4fdca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)"
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CustomerName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:44b5407a-b7e6-4fe6-bd52-d0e1bfb4fdca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-06-27 22:38:27 [Information] Executed action "Market.Controllers.OrderController.CreateOrder (Market)" in 185.7014ms
+2025-06-27 22:38:27 [Information] Executed endpoint '"Market.Controllers.OrderController.CreateOrder (Market)"'
+2025-06-27 22:38:27 [Error] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'CustomerName'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:44b5407a-b7e6-4fe6-bd52-d0e1bfb4fdca
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Market.Controllers.OrderController.CreateOrder(Order order) in C:\Users\menna\source\repos\Market\Market\Controllers\OrderController.cs:line 45
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-06-27 22:38:27 [Information] Request finished "HTTP/1.1" "POST" "https"://"localhost:7091""""/api/order""" - 500 null "text/plain; charset=utf-8" 198.3771ms
