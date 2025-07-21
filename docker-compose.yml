@@ -1,0 +1,72 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sqlserver
+    environment:
+      SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlvolume:/var/opt/mssql
+    # Fixed healthcheck - simpler approach
+    healthcheck:
+      test: ["CMD-SHELL", "pidof sqlservr || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - marketnet
+
+  marketapi:
+    build:
+      context: ./MarketService
+      dockerfile: Dockerfile
+    container_name: marketapi
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: "http://+:80"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=MarketDB;User Id=sa;Password=Your_password123;TrustServerCertificate=True;"
+      # Add logging configuration
+      Logging__LogLevel__Default: "Information"
+      Logging__LogLevel__Microsoft.AspNetCore: "Warning"
+      Logging__Console__IncludeScopes: "true"
+    ports:
+      - "7092:80"
+    # depends_on:
+    #   sqlserver:
+    #     condition: service_healthy
+    networks:
+      - marketnet
+    # Add restart policy
+    restart: unless-stopped
+
+  marketauth:
+    build:
+      context: ./MarketAuth
+      dockerfile: Dockerfile
+    container_name: marketauth
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: "http://+:85"
+      ConnectionStrings__DefaultConnection: "Server=sqlserver;Database=MarketAuthDB;User Id=sa;Password=Your_password123;TrustServerCertificate=True;"
+      # Add logging configuration
+      Logging__LogLevel__Default: "Information"
+      Logging__LogLevel__Microsoft.AspNetCore: "Warning"
+      Logging__Console__IncludeScopes: "true"
+    ports:
+      - "5000:85"
+    # depends_on:
+    #   sqlserver:
+    #     condition: service_healthy
+    networks:
+      - marketnet
+    # Add restart policy
+    restart: unless-stopped
+
+networks:
+  marketnet:
+    driver: bridge
+
+volumes:
+  sqlvolume:
