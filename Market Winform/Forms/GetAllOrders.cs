@@ -1,4 +1,4 @@
-﻿using Market.Models;
+﻿using MarketService.Domain;
 using Market_Winform.Helpers;
 using System;
 using System.Collections.Generic;
@@ -28,7 +28,7 @@ namespace Market_Winform
         {
             try
             {
-                var response = await ApiClient.Client.GetAsync("https://localhost:7092/api/order");
+                var response = await ApiClient.Client.GetAsync("http://localhost:7092/api/order");
                 ordersGridView.DataSource = response;
 
                 var rawJson = await response.Content.ReadAsStringAsync();

@@ -1,4 +1,4 @@
-﻿using Market.Models;
+﻿using MarketService.Domain;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -34,7 +34,7 @@ namespace Market_Winform
                 return;
             }
             int id = int.Parse(textBoxOrderId.Text);
-            var response = await ApiClient.Client.GetAsync($"https://localhost:7092/api/order/{id}");
+            var response = await ApiClient.Client.GetAsync($"http://localhost:7092/api/order/{id}");
 
             if (response.IsSuccessStatusCode)
             {
@@ -68,7 +68,7 @@ namespace Market_Winform
                 return;
             }
 
-            var existingResponse = await ApiClient.Client.GetAsync($"https://localhost:7092/api/order/{orderId}");
+            var existingResponse = await ApiClient.Client.GetAsync($"http://localhost:7092/api/order/{orderId}");
             if (!existingResponse.IsSuccessStatusCode)
             {
                 MessageBox.Show("Order not found.");
@@ -91,7 +91,7 @@ namespace Market_Winform
                 Direction = comboBoxDirection.SelectedItem?.ToString()
             };
 
-            var response = await ApiClient.Client.PutAsJsonAsync($"https://localhost:7092/api/order/{orderId}", updatedOrder);
+            var response = await ApiClient.Client.PutAsJsonAsync($"http://localhost:7092/api/order/{orderId}", updatedOrder);
 
             if (response.IsSuccessStatusCode)
             {
@@ -119,7 +119,7 @@ namespace Market_Winform
                 return;
             }
 
-            var response = await ApiClient.Client.GetAsync($"https://localhost:7092/api/order/{id}");
+            var response = await ApiClient.Client.GetAsync($"http://localhost:7092/api/order/{id}");
 
             if (!response.IsSuccessStatusCode)
             {

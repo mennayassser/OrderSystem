@@ -1,4 +1,4 @@
-﻿using Market.Models;
+﻿using MarketService.Domain;
 using Market_Winform.Helpers;
 using System;
 using System.Collections.Generic;
@@ -50,7 +50,7 @@ namespace Market_Winform
                 return;
             }
 
-            var response = await ApiClient.Client.DeleteAsync($"https://localhost:7092/api/order/{id}");
+            var response = await ApiClient.Client.DeleteAsync($"http://localhost:7092/api/order/{id}");
 
             if (response.IsSuccessStatusCode)
             {

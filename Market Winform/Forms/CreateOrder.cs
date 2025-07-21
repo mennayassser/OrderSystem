@@ -32,7 +32,7 @@ namespace Market_Winform.Forms
             };
 
 
-            var response = await ApiClient.Client.PostAsJsonAsync("https://localhost:7092/api/order", order);
+            var response = await ApiClient.Client.PostAsJsonAsync("http://localhost:7092/api/order", order);
 
             if (response.IsSuccessStatusCode)
             {

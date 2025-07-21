@@ -1,5 +1,5 @@
 ﻿using Market_Winform.Helpers;
-using MarketAuth.Models;
+using MarketAuth.Domain;
 using System;
 using System.Net;
 using System.Net.Http.Json;
@@ -155,7 +155,7 @@ namespace Market_Winform.Forms
                     new Login().Show();
                     this.Hide();
                 }
-                            }
+                            
             }
             catch (Exception ex)
             {

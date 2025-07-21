@@ -1,5 +1,4 @@
-﻿using Market.Models;
-using Market.Models;
+﻿using MarketService.Domain;
 using Market_Winform.Helpers;
 using System;
 using System.Collections.Generic;
@@ -45,7 +44,7 @@ namespace Market_Winform
         private async Task LoadOrderByIdAsync(int id)
         {
 
-            var response = await ApiClient.Client.GetAsync($"https://localhost:7092/api/order/{id}");
+            var response = await ApiClient.Client.GetAsync($"http://localhost:7092/api/order/{id}");
 
             if (!response.IsSuccessStatusCode)
             {

@@ -1,14 +1,13 @@
-using BackgroundWorker.Controllers;
-using Market.Data;
-using Market.Hubs;
-using Market.Services;
-using Microsoft.EntityFrameworkCore;
+using BackgroundWorker.API.Controllers;
+using BackgroundWorker.Infrastructure;
+using BackgroundWorker.Application;
 using Microsoft.Extensions.Configuration;
 using Serilog;
 using Serilog.Configuration;
 using Serilog.Events;
 using System;
 using System.Threading;
+using BackgroundWorker.Infrastructure.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 

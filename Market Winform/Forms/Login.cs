@@ -1,6 +1,5 @@
 ﻿using Market_Winform.Forms;
 using Market_Winform.Helpers;
-using MarketAuth.Models;
 using System;
 using System.Net;
 using System.Net.Http;
@@ -118,8 +117,18 @@ namespace Market_Winform
 
         private void labelSignUp_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
             new SignUp().Show();
             this.Hide();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

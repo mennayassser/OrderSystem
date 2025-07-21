@@ -1,5 +1,5 @@
-using Market.Data;
-using Market.Services;
+using MarketService.Infrastructure;
+using MarketService.Application;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,7 +9,7 @@ using Serilog.Configuration;
 using Serilog.Events;
 using System;
 using System.Text;
-
+using MarketService.Infrastructure.Middleware;
 
 
 var builder = WebApplication.CreateBuilder(args);

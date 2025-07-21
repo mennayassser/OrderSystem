@@ -120,6 +120,7 @@
             label5.Size = new Size(61, 20);
             label5.TabIndex = 8;
             label5.Text = "Sign up";
+            label5.Click += label5_Click;
             // 
             // Login
             // 
@@ -137,6 +138,7 @@
             Controls.Add(label1);
             Name = "Login";
             Text = "Login";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }

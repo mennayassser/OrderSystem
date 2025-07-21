@@ -1,4 +1,4 @@
-﻿using Market.Models;
+﻿using MarketService.Domain;
 using Microsoft.AspNetCore.SignalR.Client;
 using System;
 using System.Collections.Generic;
@@ -46,7 +46,7 @@ namespace Market_Winform
 
             try
             {
-                var response = await ApiClient.Client.GetAsync("https://localhost:7092/api/order");
+                var response = await ApiClient.Client.GetAsync("http://localhost:7092/api/order");
                 RealtimeDataGrid.DataSource = response;
 
                 var rawJson = await response.Content.ReadAsStringAsync();
@@ -73,9 +73,11 @@ namespace Market_Winform
             }
 
             _hubConnection = new HubConnectionBuilder()
-        .WithUrl("https://localhost:7167/orderhub") 
+        .WithUrl("http://localhost:7167/orderhub") 
         .WithAutomaticReconnect()
         .Build();
+
+            await _hubConnection.StartAsync();
 
             _hubConnection.On<Order>("ReceiveOrder", order =>
             {

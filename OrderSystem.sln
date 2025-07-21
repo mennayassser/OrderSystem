@@ -14,7 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundWorker", "BackgroundWorker\BackgroundWorker.csproj", "{E5FD7B84-1A20-8C1E-B847-7317D418200E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketWinform", "..\Market\Market Winform\MarketWinform.csproj", "{BD9BA548-3AB4-8FCF-A9FC-1A6F52C0FCB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketWinform", "Market Winform\MarketWinform.csproj", "{BD9BA548-3AB4-8FCF-A9FC-1A6F52C0FCB7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{EED1257F-BCEB-4F1D-AF0C-D41A7FF8739E} = {EED1257F-BCEB-4F1D-AF0C-D41A7FF8739E}
 	EndProjectSection

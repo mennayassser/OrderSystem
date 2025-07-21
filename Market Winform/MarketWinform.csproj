@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MarketAuth\MarketAuth.csproj" />
-    <ProjectReference Include="..\Market\Market.csproj" />
+    <ProjectReference Include="..\MarketService\MarketService.csproj" />
   </ItemGroup>
 
   <ItemGroup>
