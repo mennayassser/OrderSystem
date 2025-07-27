@@ -6,8 +6,12 @@ This project demonstrates a backend microservice architecture built using **ASP.
 - Real-time order streaming using **SignalR**
 - Asynchronous messaging with **RabbitMQ**
 - **Entity Framework Core** for database interactions
-- **Dockerized** environment using separate containers for Web API and SQL Server
+- **Dockerized** environment using containers for Web API and SQL Server
 - Clean separation of concerns between models, services, and data layers
+- follows **Clean Architecture** principles for scalability and maintainability
+- Modularized into microservices
+- Added **JWT-based authentication**
+- Includes ERD Showcasing database relations
 
 ## Technologies Used
 - **ASP.NET Core**
@@ -20,9 +24,9 @@ This project demonstrates a backend microservice architecture built using **ASP.
 - **WinForms (C#)**
 
 ## Future Work
-- Refactor to follow **Clean Architecture** principles  
-- Add **JWT-based authentication** and role-based access control  
-- Implement **Redis caching** for performance optimization  
+- Implement role-based access control  
+- Implement **Redis caching** for performance optimization
+- Create UML for complete work
 
 ## Author
 Menna Yasser – [LinkedIn](https://www.linkedin.com/in/menna-yasser-0a6b50296/) | [Email](mennayasser2222@gmail.com)
